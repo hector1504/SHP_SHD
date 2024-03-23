@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="btn">
+    <ion-chip>
+      <ion-avatar class="avatar">
+        <img alt="Silhouette of a person's head" src="https://i.pinimg.com/564x/03/87/23/038723ff352b83d7d98927a5cb229f48.jpg" />
+      </ion-avatar>
+      <ion-label>Pedrito Salazar</ion-label>
+    </ion-chip>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="--background: url('https://i.pinimg.com/564x/76/68/8b/76688b6f9301f85eebb7e520ee0780ff.jpg') no-repeat center center / cover;">
+  <h1>Bienvenido Usuario,<br>¿Listo para la <br> búsqueda?</h1>
+      <ion-button color="btn" class="btn" (click)="stats()">
+        <ion-icon slot="start" name="stats-chart"></ion-icon>
+        <label>Estadísticas</label>
+      </ion-button>
+      <ion-button color="btn" class="btn" (click)="catalogo()">
+        <ion-icon slot="start" name="book"></ion-icon>
+        <label>Catálogo</label>
+      </ion-button>
+      <ion-button color="danger" class="btn" (click)="logout()">
+        <ion-icon class="logout" slot="start" name="log-out-sharp">></ion-icon>
+        <label class="logout">Cerrar sesión</label>
+      </ion-button>
+</ion-content>

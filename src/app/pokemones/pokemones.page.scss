@@ -1,0 +1,74 @@
+.ion-color-charmander {
+	--ion-color-base: var(--ion-color-charmander);
+	--ion-color-base-rgb: var(--ion-color-charmander-rgb);
+	--ion-color-contrast: var(--ion-color-charmander-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-charmander-contrast-rgb);
+	--ion-color-shade: var(--ion-color-charmander-shade);
+	--ion-color-tint: var(--ion-color-charmander-tint);
+}
+.btn {
+    width: 75%;
+    height: 2%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    // margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+  label {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+  }
+  .avatar {
+    border-radius: 25%;
+  }
+  img {
+    border-color: black;
+    border-width: 25px;
+  }
+ .exit {
+    margin-left: 160px;
+ }
+ .icon {
+    color: white;
+ }
+ ion-grid {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+ }
+ .pokemon-card {
+  max-width: 300px;
+  margin: 130px auto 0;
+  padding: 20px;
+  background-color: #575757;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pokemon-card img {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pokemon-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pokemon-card p {
+  margin-bottom: 5px;
+}

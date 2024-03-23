@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="charmander">
+    <ion-chip>
+      <ion-avatar class="avatar">
+        <img alt="Silhouette of a person's head" src="https://i.pinimg.com/564x/03/87/23/038723ff352b83d7d98927a5cb229f48.jpg" />
+      </ion-avatar>
+      <ion-label>Pedrito Salazar</ion-label>
+    </ion-chip>
+    <ion-button (click)="catalogo()" class="exit" color="verde">
+      <ion-icon name="exit"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="--background: url('https://i.pinimg.com/564x/73/38/ce/7338ceb9b6d4aabf9a9dbc2415b35eea.jpg') no-repeat center center / cover;">
+  
+    <div class="pokemon-card" *ngIf="selectedPokemon">
+      <h2>{{ selectedPokemon.name }}</h2>
+      <img [src]="selectedPokemon.image" alt="Imagen de {{ selectedPokemon.name }}">
+      <p>Altura: {{ selectedPokemon.height }}</p>
+      <p>Peso: {{ selectedPokemon.weight }}</p>
+      <p>Habilidades: {{ selectedPokemon.abilities.join(', ') }}</p>
+      <p>Tipo(s): {{ selectedPokemon.types.join(', ') }}</p>
+    </div>
+  
+  
+  
+</ion-content>

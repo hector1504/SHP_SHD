@@ -1,0 +1,43 @@
+.ion-color-verde {
+	--ion-color-base: var(--ion-color-verde);
+	--ion-color-base-rgb: var(--ion-color-verde-rgb);
+	--ion-color-contrast: var(--ion-color-verde-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-verde-contrast-rgb);
+	--ion-color-shade: var(--ion-color-verde-shade);
+	--ion-color-tint: var(--ion-color-verde-tint);
+}
+.btn {
+    width: 75%;
+    height: 2%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    // margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+  label {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+  }
+  .avatar {
+    border-radius: 25%;
+  }
+  img {
+    border-color: black;
+    border-width: 25px;
+  }
+ .exit {
+    margin-left: 160px;
+ }
+ .icon {
+    color: white;
+ }

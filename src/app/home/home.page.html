@@ -1,0 +1,25 @@
+<ion-content style="--background: url('https://i.pinimg.com/564x/12/00/79/120079e48842c92d89e6f02a2c843f71.jpg') no-repeat center center / cover;">
+    <ion-avatar class="long-avatar">
+      <img alt="Silhouette of a person's head" src="https://i.pinimg.com/564x/b6/cc/e5/b6cce517e65fa7db4e06ce41f9d36d7a.jpg" />
+    </ion-avatar>
+    <ion-list>
+      <ion-item>
+        <ion-label>
+          <h1>Iniciar sesión</h1>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="email" class="correo" label="Correo electronico" label-placement="floating" fill="outline" placeholder="correo@dominio.com" type="email" (ionChange)="validateForm()"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input [(ngModel)]="password" class="contraseña" label="Contraseña" label-placement="floating" fill="outline" placeholder="Ingresa una contraseña" type="password" (ionChange)="validateForm()"></ion-input>
+      </ion-item>
+    </ion-list>
+  <p></p>
+    <ion-button color="btn" class="btn" expand="block"  [disabled]="!isFormValid" (click)="login()"><label>Ingresar</label></ion-button>
+    <!-- <div>
+      <ion-button (click)="accion()" color="dark">
+        Arriba
+      </ion-button>
+    </div> -->
+  </ion-content>

@@ -1,0 +1,38 @@
+.ion-color-btn {
+	--ion-color-base: var(--ion-color-btn);
+	--ion-color-base-rgb: var(--ion-color-btn-rgb);
+	--ion-color-contrast: var(--ion-color-btn-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-btn-contrast-rgb);
+	--ion-color-shade: var(--ion-color-btn-shade);
+	--ion-color-tint: var(--ion-color-btn-tint);
+}
+.btn {
+    width: 75%;
+    height: 2%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+  }
+  label {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+  .avatar {
+    border-radius: 25%;
+  }
+  img {
+    border-color: black;
+    border-width: 25px;
+  }
+  .logout {
+    color: black;
+  }
